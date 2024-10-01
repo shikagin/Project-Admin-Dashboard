@@ -1,1 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:#cbd5e1;
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-weight: bold;
+    color: #1e293b;
+}
+header button{
+    border: none;
+    background-color: #1e293b;
+    height: 50px;
+    width: 110px;
+    border-radius: 20px;
+    color: #f1f5f9;
+    font-weight: bold;
+    margin-left: 20px;
+}
+header input{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f1f5f9;
+}
+header > div{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    display: grid;
+    
+    grid-template: 150px 800px/ 250px 1fr;
+}
+.sideBare{
+    font-weight: bold;
+    color: #f1f5f9;
+    background-color: #1e293b;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+    
+}
 
+.container{
+    background-color: #475569;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display:  grid;
+
+    grid-template-columns: 3fr 1fr;
+}
+.Projects{
+    display: grid;
+     gap: 50px;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+
+}
+.Projects > div {
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;    
+    background-color: #94a3b8;
+}
+.adds{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.adds > div {
+    margin-left: 20px;
+    margin-top: 100px;
+    background-color: #94a3b8;
+    border-radius: 20px;
+}
+
+.sideBare > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.sideBare > div > div{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+.Dashboard{
+    width: 40px;
+    height: 40px;
+}
+.dash{
+    font-family: Roboto;
+    margin-bottom: 50px;
+}
